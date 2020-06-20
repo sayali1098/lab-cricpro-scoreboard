@@ -1,16 +1,146 @@
-/* Type your code here */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap");
 
+body {
+  font-family: "Nunito Sans";
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  background-image: url(./assets/background-image1.png);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
 
-/* change the font family and spacing as per your project font */
-.footer{
-    display:flex;
-    flex-direction: row;
-    align-content: flex-end;
-	position: relative;
-	top: 750px;
-	margin-left: 80px;
-	font-size: 18px;
-	font-family: Nunito Sans;
-    font-style: normal;
-    
+}
+
+#cricpro {
+  margin: 15px 10px 40px 80px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.divh1 {
+  font-weight: bolder;
+  font-size: 4em;
+  margin-left: 30px;
+}
+
+.divp {
+  font-weight: 700;
+  font-size: 2em;
+  margin-left: 30px;
+  color: gray;
+}
+
+.grid-container {
+  padding: 10px;
+  display: grid;
+  display: flex;
+  margin-left: 30px;
+  margin-right: 80px;
+  height: 3em;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  background: #f05036;
+  color: white;
+  font-weight: 600;
+  font-size: 2em;
+}
+
+/* 
+.f1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+} */
+
+.gc2 {
+  padding: 10px;
+  display: grid;
+  margin-left: 30px;
+  margin-right: 80px;
+  height: 3em;
+  grid-template-columns: 7fr repeat(5, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  color: black;
+  font-weight: 600;
+  font-size: 2em;
+  border-bottom: 1px solid gray;
+}
+
+.gc3 {
+  padding: 10px;
+  display: grid;
+  margin-left: 30px;
+  margin-right: 80px;
+  height: 10em;
+  grid-template-columns: repeat(2, 3.5fr) repeat(5, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  color: black;
+  font-weight: 600;
+  font-size: 2em;
+  border-bottom: 1px solid gray;
+}
+
+.gc3 a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.gc3 .fontgray {
+  color: gray;
+}
+
+.gc4 {
+  padding: 10px;
+  display: grid;
+  margin-left: 30px;
+  margin-right: 80px;
+  height: 3em;
+  grid-template-columns: 7fr 3fr;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  color: black;
+  font-weight: 600;
+  font-size: 2em;
+  border-bottom: 1px solid gray;
+}
+
+.gc5 {
+  padding: 10px;
+  display: grid;
+  margin-left: 30px;
+  margin-right: 80px;
+  height: 3em;
+  grid-template-columns: 3.5fr 8.5fr;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  color: black;
+  font-weight: 600;
+  font-size: 2em;
+  border-bottom: 1px solid gray;
+}
+
+.gc5 a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  position: relative;
+  top: 750px;
+  margin-left: 80px;
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-style: normal;
 }
